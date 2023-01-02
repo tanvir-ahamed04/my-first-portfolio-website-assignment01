@@ -10,13 +10,35 @@ span{
     margin-left: 3%;
 }
 .text-file h1{
-    font-size: 30px;  
+    font-size: 40px; 
+    margin-top: 25px 15px ; 
 }
 .text-file p{
     font-size: 20px;
     width: 80%;
+    margin-top: 25px 15px ; 
 }
 .vertical-line{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 7%;
+}
+.btn{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(232, 247, 247);
+}
+/*----------------------end wlcome section-----------------------*/
+.about-section-img{
+    border-radius: 15px;
+    height: 324px;
+    width: 330px;
+    margin-left: 3%;
+    margin-top: 40px;
 }
