@@ -1,0 +1,22 @@
+/*----------------top-corner red bacground................*/
+body{
+    background: url(Screenshot_2022-12-28_232714-removebg-preview.png) no-repeat
+}
+span{
+    color: orange ;
+}
+.text-file{
+    margin: 30px 20px;
+    margin-left: 3%;
+}
+.text-file h1{
+    font-size: 30px;  
+}
+.text-file p{
+    font-size: 20px;
+    width: 80%;
+}
+.vertical-line{
+    display: flex;
+    justify-content: space-between;
+}
