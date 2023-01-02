@@ -8,6 +8,7 @@ span{
 .text-file{
     margin: 30px 20px;
     margin-left: 3%;
+    margin-right: 3%;
 }
 .text-file h1{
     font-size: 40px; 
@@ -35,10 +36,36 @@ span{
     color: rgb(232, 247, 247);
 }
 /*----------------------end wlcome section-----------------------*/
-.about-section-img{
-    border-radius: 15px;
+.vertical-line2{
+    display: flex;
+    margin: 40px 10px;
+    padding-left: 3%;
+}
+.about-section-img-my-img{
     height: 324px;
     width: 330px;
     margin-left: 3%;
     margin-top: 40px;
+    padding-right: 30px;
+    border-radius: 15px;
+}
+.text-file-about-scetion{
+    margin: 30px 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 50px;
+}
+.text-file-about-scetion h1{
+    font-size: 40px; 
+    margin-top: 25px 15px ; 
+    
+}
+.text-file-about-scetion p{
+    font-size: 20px;
+    width: 100%;
+    margin-top: 25px 15px ; 
+}
+.about-section-round-img{
+    width: 160px;
+    justify-content: right;
 }
