@@ -10,13 +10,12 @@ span{
     margin-left: 3%;
     margin-right: 3%;
 }
-.text-file h1{
+ h1{
     font-size: 40px; 
     margin-top: 25px 15px ; 
 }
-.text-file p{
+p{
     font-size: 20px;
-    width: 80%;
     margin-top: 25px 15px ; 
 }
 .vertical-line{
@@ -25,7 +24,7 @@ span{
     margin-bottom: 7%;
 }
 .btn{
-    background-image: linear-gradient(orange, tomato);
+    background: linear-gradient(rgb(232, 115, 5), rgb(234, 161, 45));;
     padding: 10px 40px;
     border-radius: 8px;
     border: none;
@@ -35,19 +34,25 @@ span{
     text-decoration: none;
     color: rgb(232, 247, 247);
 }
+.btn:hover{
+    background: linear-gradient(rgb(236, 140, 50), rgb(233, 175, 83));;
+}
 /*----------------------end wlcome section-----------------------*/
 .vertical-line2{
     display: flex;
     margin: 40px 10px;
     padding-left: 3%;
+    background: url(Untitled_design__3_-removebg-preview.png) no-repeat;
+    background-position: right;
+    background-size: 400px;
 }
 .about-section-img-my-img{
-    height: 324px;
+    height: 340px;
     width: 330px;
     margin-left: 3%;
     margin-top: 40px;
     padding-right: 30px;
-    border-radius: 15px;
+    border-radius:12px;
 }
 .text-file-about-scetion{
     margin: 30px 20px;
@@ -62,10 +67,18 @@ span{
 }
 .text-file-about-scetion p{
     font-size: 20px;
-    width: 100%;
     margin-top: 25px 15px ; 
 }
-.about-section-round-img{
-    width: 160px;
-    justify-content: right;
+/*----------------------experince section add-----------*/
+
+.exp-img{
+    background: url(solid_img_css_bg-removebg-preview.png) no-repeat;
+    background-size: 100px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.exp-section{
+    margin-left: 3%;
+    display: flex;
+    
 }
