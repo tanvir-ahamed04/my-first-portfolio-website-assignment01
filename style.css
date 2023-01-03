@@ -102,11 +102,22 @@ p{
 }
 /*---------expirence section end --------*/
 /*---------footer section start here  --------*/
-footer{
-    background-color: rgb(213, 210, 210);
-    padding: 30px 30px;
-    
-}
-footer p{
+
+footer p {
     text-align: center;
+}
+.icon{
+    text-align: center;
+    border: blueviolet;
+}
+.icon a{
+    height: 30px;
+    width: 10px;
+    font-size: 25px;
+   
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+   margin-top: 5%;
+    border-radius: 50%;
+    margin-left: 30px; ;
 }
