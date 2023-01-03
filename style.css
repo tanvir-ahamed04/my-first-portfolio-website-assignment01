@@ -90,3 +90,14 @@ p{
     border-radius: 20px;
     border-left: 7px solid orangered;
 }
+.box1{
+    box-shadow: 10px 10px 40px;
+    width: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 20px;
+    border-left: 7px solid rgb(0, 0, 255);
+    margin-left: 3%;
+    margin-right: 3%;
+}
+/*---------expirence section end --------*/
