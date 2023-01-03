@@ -82,3 +82,11 @@ p{
     display: flex;
     
 }
+.box{
+    box-shadow: 10px 10px 40px;
+    width: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 20px;
+    border-left: 7px solid orangered;
+}
