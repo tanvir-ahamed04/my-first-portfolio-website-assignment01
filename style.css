@@ -101,3 +101,12 @@ p{
     margin-right: 3%;
 }
 /*---------expirence section end --------*/
+/*---------footer section start here  --------*/
+footer{
+    background-color: rgb(213, 210, 210);
+    padding: 30px 30px;
+    
+}
+footer p{
+    text-align: center;
+}
