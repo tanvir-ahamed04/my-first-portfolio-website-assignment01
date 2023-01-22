@@ -5,6 +5,20 @@ body{
 span{
     color: orange ;
 }
+nav a{
+    margin-right: 40px;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
 .text-file{
     margin: 30px 20px;
     margin-left: 3%;
@@ -111,9 +125,15 @@ p{
 }
 /*---------expirence section end --------*/
 /*---------footer section start here  --------*/
-
+footer{
+    background: url(foot-canva.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 6%;
+    padding: 40px 30px;
+}
 footer p {
     text-align: center;
+    color: aliceblue;
 }
 .dot-text{
     width: 200px;
@@ -144,5 +164,40 @@ footer p {
 
 .icon  :hover{
     background-color: transparent;
-    color: #000000;
+    background: linear-gradient(rgb(232, 115, 5), rgb(234, 161, 45));;
+}
+/* form */
+form{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.input-lv{
+    width: 420px;
+    height: 15px;
+    padding: 10px 10px;
+    margin: 10px ;
+    border-radius: 5px;
+}
+.input-msg{
+    width: 420px;
+    height: 100px;
+    margin: 10px ;
+    padding: 10px 10px;
+    border-radius: 5px; 
+    border: 1px solid black;
+}
+.btn-last{
+    text-decoration: none;
+    background: linear-gradient(rgb(232, 115, 5), rgb(234, 161, 45));;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
 }
